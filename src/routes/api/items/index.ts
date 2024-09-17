@@ -1,4 +1,4 @@
-import {createItem, db, getItems} from '~/lib/database';
+import {createItem, getItems} from '~/lib/database';
 import {Item} from '~/lib/items';
 import type {APIEvent} from "@solidjs/start/server";
 
