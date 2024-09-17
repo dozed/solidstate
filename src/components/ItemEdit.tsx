@@ -1,6 +1,6 @@
 import {Component, createMemo, For} from 'solid-js';
 import {globalData, setItemTitle, setSubItemLabel} from '~/lib/store';
-import {TextBox} from '~/TextBox';
+import {TextBox} from '~/components/TextBox';
 
 type ItemEditProps = {
     itemIdx: number,

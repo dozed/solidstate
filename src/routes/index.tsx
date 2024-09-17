@@ -1,6 +1,6 @@
 import {createSignal, For, onMount, Show} from 'solid-js';
 import {Item} from '~/lib/items';
-import {ItemEdit} from '~/ItemEdit';
+import {ItemEdit} from '~/components/ItemEdit';
 import {globalData, setGlobalData} from '~/lib/store';
 
 const Index = () => {
